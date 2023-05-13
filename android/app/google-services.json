@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983814776131",
+    "project_id": "derbyjo-c1656",
+    "storage_bucket": "derbyjo-c1656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983814776131:android:7048b30c25673ebca3fbf6",
+        "android_client_info": {
+          "package_name": "com.derbyjo.derbyjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983814776131-3tjui0el6t2oip6o0q7v1f7nkpi90hu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIYh3EZkyRjq3LeM3x4r2yqbSu3tLgd4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983814776131-3tjui0el6t2oip6o0q7v1f7nkpi90hu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
