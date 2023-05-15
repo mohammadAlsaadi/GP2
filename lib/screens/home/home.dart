@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
                                 builder: (context) => const Categories()),
                           );
                         },
-                        Widget: const Text(seeAll),
+                        child: const Text(seeAll),
                       ),
                     ),
                   ],
@@ -255,7 +255,7 @@ class _HomeState extends State<Home> {
                               fontSize: 18, fontWeight: FontWeight.w600),
                         ),
                         onPressed: () {},
-                        Widget: const Text(seeAll),
+                        child: const Text(seeAll),
                       ),
                     ),
                   ],

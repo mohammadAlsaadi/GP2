@@ -17,7 +17,7 @@ class _CategoriesState extends State<Categories> {
           onPressed: () {
             Navigator.pop(context);
           },
-          Widget: const Text('bACK'),
+          child: const Text('bACK'),
         ),
       ]),
     );
