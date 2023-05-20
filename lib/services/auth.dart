@@ -16,7 +16,7 @@ class AuthService {
   }
 
   //Sign in with email and password
-  login(String emailAddress, String password) async {
+  Future login(String emailAddress, String password) async {
     try {
       UserCredential result = await _auth.signInWithEmailAndPassword(
           email: emailAddress, password: password);
@@ -29,7 +29,7 @@ class AuthService {
   }
 
   //register with email and password
-  registerW(String emailAddress, String password) async {
+  Future registerW(String emailAddress, String password) async {
     try {
       UserCredential result = await _auth.createUserWithEmailAndPassword(
           email: emailAddress, password: password);
@@ -43,7 +43,7 @@ class AuthService {
 
   //signout
 
-  signout() async {
+  Future signout() async {
     try {
       return await _auth.signOut();
     } catch (e) {
@@ -65,5 +65,4 @@ class AuthService {
   //Sign in with google
 
   //signout from google
-
 }

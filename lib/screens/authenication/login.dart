@@ -166,7 +166,7 @@ class _LoginState extends State<Login> {
                       onPressed: () {
                         widget.toggleview();
                       },
-                      Widget: const Text(
+                      child: const Text(
                         'Sign up? ',
                         style: TextStyle(color: Colors.red),
                       ),
